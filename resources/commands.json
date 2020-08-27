@@ -1,0 +1,94 @@
+{
+  "stats": {
+    "overloads": {
+      "player": {
+        "parameters": [
+          {
+            "name": "player",
+            "type": "target",
+            "optional": true
+          }
+        ]
+      }
+    }
+  },
+  "team": {
+    "overloads": {
+      "invite": {
+        "parameters": [
+          {
+            "name": "invite",
+            "type": "rawtext",
+            "useEnum": true,
+            "optional": false
+          },
+          {
+            "name": "player",
+            "type": "target",
+            "optional": false
+          }
+        ]
+      },
+      "accept": {
+        "parameters": [
+          {
+            "name": "accept",
+            "type": "rawtext",
+            "useEnum": true,
+            "optional": false
+          },
+          {
+            "name": "player",
+            "type": "target",
+            "optional": false
+          }
+        ]
+      },
+      "deny": {
+        "parameters": [
+          {
+            "name": "deny",
+            "type": "rawtext",
+            "useEnum": true,
+            "optional": false
+          },
+          {
+            "name": "player",
+            "type": "target",
+            "optional": false
+          }
+        ]
+      },
+      "disband": {
+        "parameters": [
+          {
+            "name": "disband",
+            "type": "rawtext",
+            "useEnum": true,
+            "optional": false
+          }
+        ]
+      },
+      "leave": {
+        "parameters": [
+          {
+            "name": "leave",
+            "type": "rawtext",
+            "useEnum": true,
+            "optional": false
+          }
+        ]
+      },
+      "list": {
+        "parameters": [
+          {
+            "name": "list",
+            "type": "rawtext",
+            "useEnum": true,
+            "optional": false
+          }
+        ]
+      }
+    }
+  }
+}

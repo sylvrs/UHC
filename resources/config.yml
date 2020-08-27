@@ -1,0 +1,57 @@
+# #
+# Config for the UHC plugin
+# #
+# Timings for various events (always in seconds)
+timings:
+  # How long the countdown should be (default 60s or 1 min)
+  countdown: 60
+  # How long a player can be disconnected before being killed (default 600s or 10 mins)
+  disconnected-player: 600
+  # How far into the game that final heal should occur (default 600s or 10 mins)
+  final-heal: 600
+  # How far into the game that global mute should be disabled (default 300s or 5 mins)
+  global-mute: 300
+  # How long grace should last after the start of the game (default 1200s or 20 mins)
+  grace-period: 1200
+# Border sizes & when they should shrink (in minutes)
+# Each border setting should be laid out like this
+# border-size (radius, in blocks):
+#   shrinks:
+#     shrink-time (in minutes): shrink-size (radius, in blocks)
+border:
+  1500:
+    shrinks:
+      40: 750
+      50: 500
+      55: 250
+      60: 100
+      65: 50
+      70: 25
+  1000:
+    shrinks:
+      40: 750
+      50: 500
+      55: 250
+      60: 100
+      65: 50
+      70: 25
+  750:
+    shrinks:
+      40: 500
+      50: 250
+      55: 100
+      60: 50
+      65: 25
+  500:
+    shrinks:
+      35: 250
+      40: 100
+      45: 50
+      50: 25
+      55: 10
+  250:
+    shrinks:
+      30: 100
+      35: 50
+      40: 25
+      45: 10
