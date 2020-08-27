@@ -1,4 +1,4 @@
-# Practice
+# Hosted UHC
 
 An open-source HostedUHC plugin
 
